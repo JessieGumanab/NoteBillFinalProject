@@ -1,1 +1,26 @@
-<p>login works!</p>
+<!DOCTYPE html>
+<html lan="en">
+    <div class="top-bar">
+        <h1>NoteBill</h1>
+    </div>    
+<head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="login.component.scss">
+        <script src ="validate.js"> </script>
+    </head>
+    <body>
+        <form class="box" action="login.html" method="POST">
+            <h1>
+                Login 
+            </h1>
+<input type="text" name="" placeholder="Please enter username" id="username">
+<input type="password" name="" placeholder="Enter Password" id="password">
+<input type="submit" name="" value="Login" [routerLink]="'bills'" onclick="validate()">       
+ </form>
+
+
+
+
+    </body>
+</html>

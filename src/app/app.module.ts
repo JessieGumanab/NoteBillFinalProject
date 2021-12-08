@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { BillsComponent } from './bills/bills.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,8 @@ import { BillsComponent } from './bills/bills.component';
     EditItemModalComponent,
     LoginComponent,
     BillsComponent
+  
+
   ],
   imports: [
     BrowserModule,
